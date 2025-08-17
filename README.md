@@ -1,4 +1,4 @@
-# 3tier_architecture_terraform
+# 3tier_architecture_AWS
 
 ![3-Tier Architecture](3_tier_architecture.png)
 
@@ -46,3 +46,4 @@ This architecture is well-designed for scalability, fault tolerance, and securit
 # 3. Web Server Processing: The web server processes the request or forwards it to the app server.
 # 4. App Server Logic: The app server performs business logic, querying the Amazon RDS database if needed.
 # 5. Response Delivery: The data flows back from the app server to the web server, through route53, and then to the user.
+
